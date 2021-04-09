@@ -22,8 +22,9 @@
                 <input type="submit" value="Search" id="submit-button" />
             </form>
         </div>
+        
         <br />
-
+        
         <div class="place-container">
             <h1 id="city"></h1>
             <h2 id="date"></h2>
@@ -31,129 +32,67 @@
             <div class="row">
                 <di class="col-3">
                     <div class="degree">
+                        <div class="as-of">
+                            As of 10:58 EST
+                        </div>
                         <div class="number" id="number">
                             67°
                         </div>
                         <div class="weather" id="description"></div>
+                    </div>
+                </div>
+                <div class="col-8">
+                    <div class="high">
                         <div class="emoji">
                             ⛅️
                         </div>
-                    </div>
-                </di>
-                <div class="col-8">
-                    <div class="high">
                         <div class="high">
-                            H: 66° F
-                            <br />
-                            L: 34° F
-                            <br />
-                            <br />
-                            Humidity: <span id="humidity"></span> %
-                            <br />
-                            Wind: <span id="wind"></span> mph
+                            73° | 52°
                         </div>
                     </div>
                 </div>
             </div>
-            <hr />
-            <div class="container-cards">
+            
+
+            <div class="current-forecast">
+                <div class="today"></div>
+                <div class="hourly"></div>
+                <div class="daily"></div>
+            </div>
+            
+            <div class="weather-today">
                 <div class="row">
-                    <div class="col-2">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Saturday</h5>
-                                <p class="card-text">
-                                <div class="icon">
-                                    ☀️
-                                </div>
-                                <br />
-                                <div class="text">
-                                    52°/ 36°
-                                </div>
-                                </p>
+                    <di class="col-3">
+                        <div class="table">
+                            <div class="high/low">
+                                73° | 52°
                             </div>
-                        </div>
-                    </div>
-
-
-                    <div class="col-2">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Sunday</h5>
-                                <p class="card-text">
-                                <div class="icon">
-                                    ☀️
-                                </div>
-                                <br />
-                                <div class="text">
-                                    55°/ 27°
-                                </div>
-                                </p>
+                            <div class="gusts-speed" id="gusts-speed">
+                                *Place holder
                             </div>
-                        </div>
-                    </div>
-
-
-                    <div class="col-2">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Monday</h5>
-                                <p class="card-text">
-                                <div class="icon">
-                                    ☀️
-                                </div>
-                                <br />
-                                <div class="text">
-                                    45°/ 30°
-                                </div>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-2">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Tuesday</h5>
-                                <p class="card-text">
-                                <div class="icon">
-                                    ❄️
-                                </div>
-                                <br />
-                                <div class="text">
-                                    43°/ 37°
-                                </div>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-2">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Wednesday</h5>
-                                <p class="card-text">
-                                <div class="icon">
-                                    🌧
-                                </div>
-                                <br />
-                                <div class="text">
-                                    43°/ 37°
-                                </div>
-                                </p>
-                            </div>
+                            <div class="weather" id="description"></div>
                         </div>
                     </div>
                 </div>
             </div>
-            <hr />
-        </div>
+            
+            
+            Humidity: <span id="humidity"></span> %
+            Wind: <span id="wind"></span> mph
+        
     </div>
 </div>
 
 
    
-    
+
+
+
+
+Humidity: <span id="humidity"></span> %
+Wind: <span id="wind"></span> mph
+
+
     
     
     <small>
