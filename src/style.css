@@ -1,8 +1,62 @@
 body {
     margin: 20px 390px 20px;
     
+    
+}
+
+.place-container {
+   margin: 20px 270px 20px 270px;
+   background-color: #3d7c9b;
+   border: 2px solid #3d7b9c;
+   border-radius: 10px;
+   font-family: 'Lato', sans-serif; 
+}
+
+.container {
+   background-color: #306d90;
+}
+
+#search-bar {
+  margin: 10px 10px 10px 320px ;
+  border-radius: 5px;
+}
+
+#submit-button {
+  background-color: lightskyblue;
+  color: white;
+  border: 4px solid lightskyblue;
+  border-radius: 15px;
+  transition: all 200ms ease;
+  box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+}
+
+#submit-button:hover {
+  background-color: #6aa2c4;
+  color: white;
+  border: 4px solid #6aa2c4;
 }
 
 
+.as-of {
+    color: #b6d1dc;
+    padding-left: 15px;
+}
 
+.number {
+    color: white;
+    font-size: 50px;
+    padding-left: 30px;
+    }
 
+.emoji {
+    font-size: 70px;
+    }
+
+.high {
+    color: white;
+    font-size: large;
+}
+
+.current-forecast {
+    background-color: white;
+}
