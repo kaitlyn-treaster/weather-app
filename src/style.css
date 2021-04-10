@@ -1,30 +1,38 @@
 body {
-    margin: 20px 390px 20px;
+    margin: 20px 520px 20px;
     
     
 }
 
+.container {
+   
+   background-color: #306d90;
+   border-radius: 20px;
+}
+
 .place-container {
-   margin: 20px 270px 20px 270px;
+   margin: 20px 130px 20px 160px;
    background-color: #3d7c9b;
-   border: 2px solid #3d7b9c;
+   border: 2px solid #3d7b9b;
    border-radius: 10px;
    font-family: 'Lato', sans-serif; 
 }
 
-.container {
-   background-color: #306d90;
-}
 
 #search-bar {
-  margin: 10px 10px 10px 320px ;
+  margin: 10px 10px 10px 200px;
+  background-color: #4994B7;
   border-radius: 5px;
 }
 
+::placeholder {
+    color: white;
+}
+
 #submit-button {
-  background-color: lightskyblue;
+  background-color: #78B7DB;
   color: white;
-  border: 4px solid lightskyblue;
+  border: 4px solid #78B7DB;
   border-radius: 15px;
   transition: all 200ms ease;
   box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
@@ -50,7 +58,7 @@ body {
 
 .emoji {
     font-size: 70px;
-    }
+}
 
 .high {
     color: white;
@@ -58,5 +66,27 @@ body {
 }
 
 .current-forecast {
+    margin: 20px 130px 20px 160px;
     background-color: white;
+    border: 2px solid white;
+    border-radius: 10px; 
+}
+
+.today {
+    padding-left: 25px;
+}
+
+.hourly {
+    padding-left: 15px;
+}
+
+.daily {
+    padding-left: 25px;
+}
+
+.weather-today {
+    margin: 20px 130px 20px 160px;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 10px; 
 }
