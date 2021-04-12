@@ -43,11 +43,9 @@ body {
     border: 4px solid #6aa2c4;
 }
 
-.current-forecast {
-    margin: 20px 130px 20px 160px;
-    background-color: #4d9dc4;
-    color: white;
-    border-radius: 10px; 
+.unit {
+    color:white;
+    padding-left: 60px;
 }
 
 .as-of {
@@ -111,14 +109,38 @@ li {
 }
 
 .lows {
-    padding-left: 320px;
+    padding-left: 380px;
 }
 
 #humidity {
-    padding-left: 350px;
+    padding-left: 420px;
 
 }
 
 #wind {
-     padding-left: 350px;
+     padding-left: 420px;
+}
+
+
+.rain-chance {
+    padding-left: 390px;
+}
+
+
+
+.temp {
+    font-size: 290%;
+    text-align: center;
+    color: blue;
+}   
+
+.icon {
+    text-align: center;
+    font-size: 290%;
+}
+
+
+.text {
+    font-size: 120%;
+    text-align: center;
 }
