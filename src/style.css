@@ -1,5 +1,5 @@
 body {
-    margin: 20px 520px 20px;
+    margin: 20px 490px 20px;
     
     
 }
@@ -86,6 +86,8 @@ body {
 .today-forecast {
     background-color: white;
     border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
     
 }
 
