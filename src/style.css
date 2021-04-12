@@ -87,7 +87,11 @@ body {
     border-radius: 10px; 
 }
 ul {
-    list-style-type: none;
+    list-style: none;
+}
+
+li {
+    display: inline;
 }
 
 .weather-today {
