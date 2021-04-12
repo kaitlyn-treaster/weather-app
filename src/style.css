@@ -114,7 +114,6 @@ li {
 
 #humidity {
     padding-left: 420px;
-
 }
 
 #wind {
@@ -125,8 +124,6 @@ li {
 .rain-chance {
     padding-left: 390px;
 }
-
-
 
 .temp {
     font-size: 290%;
@@ -139,8 +136,12 @@ li {
     font-size: 290%;
 }
 
-
 .text {
     font-size: 120%;
     text-align: center;
+}
+
+hr {
+    margin-inline-start: 30px;
+    margin-inline-end: 30px;
 }
