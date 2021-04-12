@@ -86,6 +86,7 @@
         
         
         <div class="today-forecast">
+            <br />
             <h4>Today's Forecast for</h4>
            <br />
             <div class="container-cards">
@@ -183,32 +184,71 @@
            
             
         <div class="weather-today">
-            <div class="row">
-                <di class="col-3">
-                    <div class="table">
-                        <div class="high/low">
-                        <i class="fas fa-temperature-high"></i> High/Low 
-                        </div>
-                        <hr />
-                        <div class="gusts-speed" id="gusts-speed">
-                            <i class="fas fa-wind"></i> Wind
-                        </div>
-                        <div class="weather" id="description"></div>
-                        <hr />
-                        <div class="precipation">
-                            <i class="fas fa-cloud-showers-heavy"></i>Precipation
-                        </div>
-                    </div>
-                </div>
+           <h4>Weather today in</h4>
+           <br />
+          <div class="row">
+            <div class="col-sm">
+                <ul class="bottom-box">
+                    <li>
+                    <i class="fas fa-temperature-high"></i> High/ Low
+                    </li>
+                    <li class="lows">
+                        58°/47°
+                    </li>
+                </ul>
             </div>
+            
+            <hr>
+            
+            <div class="col-sm">
+                <ul class="bottom-box">
+                    <li>
+                        <i class="fas fa-wind"></i> Wind
+                    </li>
+                    <li>
+                    <i class="fas fa-location-arrow"></i> <span id="wind"></span> mph
+                    </li>
+                </ul>
+            </div>
+            
+            <hr />
+            
+            <div class="col-sm">
+                <ul class="bottom-box">
+                    <li>
+                        <i class="fas fa-cloud-rain"></i> Precipitation
+                    </li>
+                    <li>
+                        
+                    </li>
+                </ul>
+            </div>
+            
+            <hr />
+
+            <div class="col-sm">
+                <ul class="bottom-box">
+                    <li>
+                    <i class="fas fa-tint"></i> Humidity
+                    </li>
+                    <li>
+                        <span id="humidity"></span> %
+                    </li>
+                </ul>
+            </div>
+
+          </div>
         </div>
+        
+        
+        <br />
 
     </div> 
 </div>   
-                    
-Humidity: <span id="humidity"></span> %
-Wind: <span id="wind"></span> mph
-                
+      
+
+
+
 <small>
     <a href="https://github.com/kaitlyn-treaster/weather-app" target="_blank">Open-source code</a>
     , by Kaitlyn Treaster

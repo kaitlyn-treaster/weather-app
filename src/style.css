@@ -85,14 +85,15 @@ body {
 
 .today-forecast {
     background-color: white;
-    border-radius: 10px; 
+    border-radius: 10px;
+    
 }
 
 h4 {
     padding-left: 20px;
 }
 
-ul {
+ul .bottom-box {
     list-style: none;
 }
 
@@ -107,3 +108,15 @@ li {
     border-radius: 10px; 
 }
 
+.lows {
+    padding-left: 320px;
+}
+
+#humidity {
+    padding-left: 350px;
+
+}
+
+#wind {
+     padding-left: 350px;
+}
