@@ -50,10 +50,10 @@
                         </div>
                     </div>
                     <div class="col-4">
-                        <div class="emoji">
+                        <div class="emoji" id="emoji">
                             ⛅️
                         </div>
-                        <div class="high">
+                        <div class="high" id="high">
                             73° | 52°
                         </div>
                     </div>
@@ -75,15 +75,15 @@
                             <div class="card-body">
                                 <h5 class="card-title">Morning</h5>
                                 <p class="card-text">
-                                    <div class="temp">
-                                        49°
+                                    <div class="temp" id="temp">
+                                        51°
                                     </div>
-                                <div class="icon">
+                                <div class="icon" id="icon">
                                     ☁️
                                 </div>
                                 <br />
-                                <div class="text">
-                                    💧 15%
+                                <div class="text" id="text">
+                                    💧 2%
                                 </div>
                                 </p>
                             </div>
@@ -96,15 +96,15 @@
                             <div class="card-body">
                                 <h5 class="card-title">Afternoon</h5>
                                 <p class="card-text">
-                                    <div class="temp">
-                                        55°
+                                    <div class="temp" id="temp">
+                                        64°
                                     </div>
-                                <div class="icon">
-                                ☁️
+                                <div class="icon" id="icon">
+                                ⛅️
                                 </div>
                                 <br />
-                                <div class="text">
-                                    💧 15%
+                                <div class="text" id="text">
+                                    0%
                                 </div>
                                 </p>
                             </div>
@@ -117,15 +117,15 @@
                             <div class="card-body">
                                 <h5 class="card-title">Evening</h5>
                                 <p class="card-text">
-                                    <div class="temp">
-                                        49°
+                                    <div class="temp" id="temp">
+                                        56°
                                     </div>
-                                <div class="icon">
-                                    🌧
+                                <div class="icon" id="icon">
+                                    ☾
                                 </div>
                                 <br />
-                                <div class="text">
-                                    💧 48%
+                                <div class="text" id="text">
+                                    💧 6%
                                 </div>
                                 </p>
                             </div>
@@ -137,15 +137,15 @@
                             <div class="card-body">
                                 <h5 class="card-title">Overnight</h5>
                                 <p class="card-text">
-                                    <div class="temp">
+                                    <div class="temp" id="temp">
                                         48°
                                     </div>
-                                <div class="icon">
-                                    ☁️
+                                <div class="icon" id="icon">
+                                    ☾
                                 </div>
                                 <br />
-                                <div class="text">
-                                    💧 24%
+                                <div class="text" id=text>
+                                    💧 12%
                                 </div>
                                 </p>
                             </div>
@@ -184,7 +184,7 @@
                         <i class="fas fa-wind"></i> Wind
                        </li>
                         <li>
-                        <i class="fas fa-location-arrow"></i> <span id="wind"></span> mph
+                         <span id="wind"></span> mph
                        </li>
                    </ul>
                </div>
@@ -217,6 +217,123 @@
            </div>
         </div>
         <br />
+        <br />
+
+        <div class="daily-forecast">
+            <br />
+            <h4>Daily Forecast</h4>
+            <br />
+            <div class="container-cards">
+                <div class="row">
+                    <div class="col-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Today</h5>
+                                <p class="card-text">
+                                <div class="temp" id="temp">
+                                    66°
+                                </div>
+                                <div class="icon" id="icon">
+                                     ⛅️
+                                </div>
+                                <br />
+                                <div class="text" id="text">
+                                    💧 2%
+                                </div>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+        
+        
+                    <div class="col-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Wed 14</h5>
+                                <p class="card-text">
+                                <div class="temp" id="temp">
+                                    67°
+                                </div>
+                                <div class="icon" id="icon">
+                                    🌧
+                                </div>
+                                <br />
+                                <div class="text" id="text">
+                                    💧 46%
+                                </div>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+        
+        
+                    <div class="col-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Thu 15</h5>
+                                <p class="card-text">
+                                <div class="temp" id="temp">
+                                    61°
+                                </div>
+                                <div class="icon" id="icon">
+                                ⛅️
+                                </div>
+                                <br />
+                                <div class="text" id="text">
+                                    💧 24%
+                                </div>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Fri 16</h5>
+                                <p class="card-text">
+                                <div class="temp" id="temp">
+                                    54°
+                                </div>
+                                <div class="icon" id="icon">
+                                    🌤
+                                </div>
+                                <br />
+                                <div class="text" id=text>
+                                    💧 15%
+                                </div>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Sat 17</h5>
+                                <p class="card-text">
+                                <div class="temp" id="temp">
+                                    62°
+                                </div>
+                                <div class="icon" id="icon">
+                                    ⛅️
+                                </div>
+                                <br />
+                                <div class="text" id=text>
+                                    💧 6%
+                                </div>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br />
+        
+            </div>
+        </div>
+
+        <br />
+
+
     </div> 
 </div>   
 

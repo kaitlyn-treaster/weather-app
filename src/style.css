@@ -101,6 +101,8 @@ li {
     display: inline;
 }
 
+
+
 .weather-today {
     margin: 20px 30px 20px 30px;
     background-color: white;
@@ -117,7 +119,7 @@ li {
 }
 
 #wind {
-     padding-left: 420px;
+     padding-left: 440px;
 }
 
 
@@ -144,4 +146,14 @@ li {
 hr {
     margin-inline-start: 30px;
     margin-inline-end: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.daily-forecast {
+    background-color: white;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
 }
