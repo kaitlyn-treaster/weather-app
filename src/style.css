@@ -50,11 +50,13 @@ body {
 
 #current-city {
     color: white;
+    padding-left: 15px;
+    font-size: 150%;
 }
 
 .as-of {
     color: #b6d1dc;
-    padding-left: 15px;
+    padding-left: 17px;
 }
 
 .number {
@@ -63,8 +65,14 @@ body {
     padding-left: 30px;
     }
 
+#description {
+    color: white;
+    padding-left: 30px;
+}    
+
 .emoji {
     font-size: 70px;
+    padding-top: 30px;
 }
 
 .high {
