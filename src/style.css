@@ -48,6 +48,10 @@ body {
     padding-left: 60px;
 }
 
+#current-city {
+    color: white;
+}
+
 .as-of {
     color: #b6d1dc;
     padding-left: 15px;
@@ -156,4 +160,8 @@ hr {
     padding-left: 20px;
     padding-right: 20px;
     
+}
+
+#description {
+    text-transform: capitalize;
 }

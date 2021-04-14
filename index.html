@@ -22,30 +22,26 @@
             <form class="search-form" id="search-form">
                 <input type="text" placeholder="🔍  Enter city..." autofocus="on" id="search-bar" autocomplete="off">
                 <input type="submit" value="Search" id="submit-button" />
-                <spam class="unit">
-                    <spam class="celsius">C</spam>
-                    <spam class="pipe">|</spam>
-                    <spam class="fahrenheit">F</spam>
-                </spam>
+                <span class="units">°C | <a href="#">°F</a></span>
+
             </form>
         </div>
         
         <br />
         
         <div class="info">
-            <h1 id="city"></h1>
-            <h2 id="date"></h2>
             
             <div class="place-container">
                 <div class="row">
                     <div class="col-8">
                         <div class="degree">
+                            <div id="current-city">
+                                <h1 id="city"></h1> Weather
+                            </div>
                             <div class="as-of">
-                                As of 10:58 EDT
+                                As of <h2 id="date"></h2> EDT
                             </div>
-                            <div class="number" id="number">
-                                67°
-                            </div>
+                            <div class="number" id="number"></div>
                             <div class="weather" id="description"></div>
                         </div>
                     </div>
@@ -196,8 +192,8 @@
                     <li>
                         <i class="fas fa-cloud-rain"></i> Precipitation
                     </li>
-                    <li class="rain-chance">
-                        %
+                    <li class="rain-chance" >
+                        <span id="#precipitation"></span> %
                     </li>
                    </ul>
                </div>
