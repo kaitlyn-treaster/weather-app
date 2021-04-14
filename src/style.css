@@ -48,6 +48,7 @@ body {
     padding-left: 60px;
 }
 
+
 #current-city {
     color: white;
     padding-left: 15px;
@@ -67,13 +68,10 @@ body {
 
 #description {
     color: white;
-    padding-left: 30px;
+    padding-left: 25px;
 }    
 
-.emoji {
-    font-size: 70px;
-    padding-top: 30px;
-}
+
 
 .high {
     color: white;
