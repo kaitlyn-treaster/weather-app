@@ -22,7 +22,9 @@
             <form class="search-form" id="search-form">
                 <input type="text" placeholder="🔍  Enter city..." autofocus="on" id="search-bar" autocomplete="off">
                 <input type="submit" value="Search" id="submit-button" />
-                <span class="units">°C | <a href="#">°F</a></span>
+                <span class="units"
+                ><a href="#" id="celsius-link" class="active">°C |</a> 
+                <a href="#" id="fahrenheit-link">°F</a></span>
             </form>
         </div>
         
@@ -39,7 +41,7 @@
                             <div class="as-of">
                                 As of <span id="date"></span> 
                             </div>
-                            <div class="number" id="number"></div>
+                            <div class="temperature" id="temperature"></div>
                             <div class="weather" id="description"></div>
                         </div>
                     </div>
@@ -58,106 +60,10 @@
         
         <br />
         <br />
-         
-        <div class="today-forecast">
-            <br />
-            <h4>Today's Forecast for</h4>
-           <br />
-            <div class="container-cards">
-                <div class="row">
-                    <div class="col-3">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Morning</h5>
-                                <p class="card-text">
-                                    <div class="temp" id="temp">
-                                        51°
-                                    </div>
-                                <div class="icon" id="icon">
-                                    ☁️
-                                </div>
-                                <br />
-                                <div class="text" id="text">
-                                    💧 2%
-                                </div>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-            
-            
-                    <div class="col-3">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Afternoon</h5>
-                                <p class="card-text">
-                                    <div class="temp" id="temp">
-                                        64°
-                                    </div>
-                                <div class="icon" id="icon">
-                                ⛅️
-                                </div>
-                                <br />
-                                <div class="text" id="text">
-                                    0%
-                                </div>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-            
-            
-                    <div class="col-3">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Evening</h5>
-                                <p class="card-text">
-                                    <div class="temp" id="temp">
-                                        56°
-                                    </div>
-                                <div class="icon" id="icon">
-                                    ☾
-                                </div>
-                                <br />
-                                <div class="text" id="text">
-                                    💧 6%
-                                </div>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-            
-                    <div class="col-3">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Overnight</h5>
-                                <p class="card-text">
-                                    <div class="temp" id="temp">
-                                        48°
-                                    </div>
-                                <div class="icon" id="icon">
-                                    ☾
-                                </div>
-                                <br />
-                                <div class="text" id=text>
-                                    💧 12%
-                                </div>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <br />
-
-            </div>
-        </div>
-            
-        <br />
-        <br />
                 
         <div class="weather-today">
             <br />
-           <h4>Weather today in</h4>
+           <h4>Weather today</h4>
            <br />
            <div class="row">
                <div class="col-sm">
@@ -191,8 +97,8 @@
                     <li>
                         <i class="fas fa-cloud-rain"></i> Precipitation
                     </li>
-                    <li class="rain-chance" >
-                        <span id="#precipitation"></span> 50%
+                    <li>
+                        <span id="precipitation"></span> 50%
                     </li>
                    </ul>
                </div>
@@ -220,7 +126,7 @@
             <br />
             <div class="container-cards">
                 <div class="row">
-                    <div class="col-3">
+                    <div class="col-2">
                         <div class="card">
                             <div class="card-body">
                                 <h5 class="card-title">Today</h5>
@@ -228,20 +134,20 @@
                                 <div class="temp" id="temp">
                                     66°
                                 </div>
-                                <div class="icon" id="icon">
+                                <div class="emoji" id="emoji">
                                      ⛅️
                                 </div>
                                 <br />
                                 <div class="text" id="text">
                                     💧 2%
                                 </div>
-                                </p>
+                               </p>
                             </div>
                         </div>
                     </div>
         
         
-                    <div class="col-3">
+                    <div class="col-2">
                         <div class="card">
                             <div class="card-body">
                                 <h5 class="card-title">Wed 14</h5>
@@ -249,7 +155,7 @@
                                 <div class="temp" id="temp">
                                     67°
                                 </div>
-                                <div class="icon" id="icon">
+                                <div class="emoji" id="emoji">
                                     🌧
                                 </div>
                                 <br />
@@ -262,7 +168,7 @@
                     </div>
         
         
-                    <div class="col-3">
+                    <div class="col-2">
                         <div class="card">
                             <div class="card-body">
                                 <h5 class="card-title">Thu 15</h5>
@@ -270,7 +176,7 @@
                                 <div class="temp" id="temp">
                                     61°
                                 </div>
-                                <div class="icon" id="icon">
+                                <div class="emoji" id="emoji">
                                 ⛅️
                                 </div>
                                 <br />
@@ -282,7 +188,7 @@
                         </div>
                     </div>
         
-                    <div class="col-3">
+                    <div class="col-2">
                         <div class="card">
                             <div class="card-body">
                                 <h5 class="card-title">Fri 16</h5>
@@ -290,7 +196,7 @@
                                 <div class="temp" id="temp">
                                     54°
                                 </div>
-                                <div class="icon" id="icon">
+                                <div class="emoji" id="emoji">
                                     🌤
                                 </div>
                                 <br />
@@ -301,7 +207,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-3">
+                    <div class="col-2">
                         <div class="card">
                             <div class="card-body">
                                 <h5 class="card-title">Sat 17</h5>
@@ -309,7 +215,7 @@
                                 <div class="temp" id="temp">
                                     62°
                                 </div>
-                                <div class="icon" id="icon">
+                                <div class="emoji" id="emoji">
                                     ⛅️
                                 </div>
                                 <br />
