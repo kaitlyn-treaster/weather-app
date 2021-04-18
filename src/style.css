@@ -128,50 +128,37 @@ hr {
     padding-left: 400px;
 }
 
-
-
-
-
-
-.daily-forecast {
-    background-color: white;
-    border-radius: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    
-}
-.container-cards {
-    display: block;
-    padding-left: 90px;
-    padding-right: 10px;
+.weekly-forecast {
+    background: white;
 }
 
-.card-title {
-    text-align: center;
-    font-size: 100%;
+.weather-forecast {
+    margin-top: 20px;
+    color: #000;
+    background: white;
+    border: 2px solid white;
+    border-radius: 10px; 
 }
 
-.card-text {
-    text-align: center;
-    font-size: 100%;
+.weather-forecast-date {
+    font-size: 16px;
+    opacity: 0.5;
 }
 
-
-.temp {
-    font-size: 200%;
-    text-align: center;
-    color: blue;
-}   
-
-.emoji {
-    text-align: center;
-    font-size: 250%;
+.weather-forecast-temperature-min {
+    opacity: 0.5;
 }
 
-.text {
-    font-size: 100%;
+.weather-forecast-temperatures {
+    font-size: 13px;
+}
+
+.holder {
     text-align: center;
 }
+
+
+
 
 
 
