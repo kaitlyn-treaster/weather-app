@@ -128,16 +128,17 @@ hr {
     padding-left: 400px;
 }
 
+
+
 .weekly-forecast {
     background: white;
+    border: 2px solid white;
+    border-radius: 10px; 
 }
 
 .weather-forecast {
     margin-top: 20px;
     color: #000;
-    background: white;
-    border: 2px solid white;
-    border-radius: 10px; 
 }
 
 .weather-forecast-date {
