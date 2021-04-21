@@ -94,8 +94,8 @@ hr {
 
 .average {
     color: white;
-    font-size: large;
-    padding-left: 10px;
+    font-size: 110%;
+    padding-left: 5px;
 }
 
 .weather-today {
