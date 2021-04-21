@@ -98,37 +98,20 @@ hr {
     padding-left: 10px;
 }
 
-
-
-
-
-
-
-
 .weather-today {
-    margin: 20px 90px 20px 90px;
+    margin: 20px 190px 20px 190px;
     background-color: white;
     border: 2px solid white;
     border-radius: 10px; 
 }
 
-.lows {
-    padding-left: 380px;
-}
-
 #wind {
-    padding-left: 420px;
+    padding-left: 230px;
 }
-#precipitation {
-    padding-left: 370px;
-}
-
 
 #humidity {
-    padding-left: 400px;
+    padding-left: 215px;
 }
-
-
 
 .weekly-forecast {
     background: white;
@@ -157,11 +140,6 @@ hr {
 .holder {
     text-align: center;
 }
-
-
-
-
-
 
 #description {
     text-transform: capitalize;
